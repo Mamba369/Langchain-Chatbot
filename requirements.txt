@@ -1,3 +1,5 @@
 langchain
-panel
 langchain_openai
+langchain_community
+panel
+pypdf2
