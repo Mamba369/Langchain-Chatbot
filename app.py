@@ -72,7 +72,6 @@ class Chatbot:
         file_paths = [file_paths] if type(file_paths) is str else file_paths
         for file_path in file_paths:
             file_path = PARENT_FOLDER_PATH / file_path
-            print(file_path)
             text_loader = TextLoader(file_path)
             self.documents.extend(text_loader.load())
 
@@ -130,6 +129,8 @@ class Chatbot:
             sizing_mode="stretch_width",
             widgets=[self.chat_input],
             callback_exception="verbose",
+            show_undo=False,
+            show_rerun=False,
         )
         self.chat_interface.send(
             "Send a message to start chatting!", user="System", respond=False

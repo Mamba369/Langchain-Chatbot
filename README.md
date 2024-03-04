@@ -1,13 +1,8 @@
 # Langchain-Chatbot
 
 ## Overview
-This project contains chatbot built using Langchain library and tested via connecting to Mistral-7B model running locally at LM studio. Future modifications described below are planned for this project in order to gain practival NLP and AI knowledge.
-
-## Already Implemented
-- Chatbot working in two modes: first in conversational manner with memory and second in retrieval manner without memory in order to test RAG performance
-
-## Planned
-- Improve RAG with FLARE
+This project contains chatbot built using Langchain library and tested via connecting to Mistral-7B model running locally at LM studio. 
+Chatbot working in two modes: first in conversational manner with memory and second in retrieval manner with appropriate chain.
 
 ## Usage
 To interact with chatbot locally, follow these steps:
